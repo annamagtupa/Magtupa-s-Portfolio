@@ -3,55 +3,76 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   color: #fff;
   background-color: #002b4f;
 }
+
 .container {
   width: 90%;
   max-width: 1100px;
   margin: 0 auto;
 }
+
 nav {
   background: #001e36;
   padding: 1rem 0;
 }
+
 nav .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
+.logo {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
 .nav-links {
   list-style: none;
   display: flex;
   gap: 1.5rem;
 }
+
 .nav-links a {
   text-decoration: none;
   color: #fff;
   font-weight: bold;
 }
+
 .hero {
   display: flex;
   align-items: center;
   padding: 4rem 0;
 }
+
 .hero-content {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
+
 .hero-text h1 {
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
 }
+
 .subtitle {
   color: #4fb1ff;
   margin-bottom: 1rem;
 }
+
+p {
+  margin-bottom: 14px;
+}
+
 .btn {
   display: inline-block;
   background: #fff;
@@ -63,18 +84,24 @@ nav .container {
   border: 2px solid #fff;
   transition: 0.3s;
 }
+
 .btn:hover {
   background: transparent;
   color: #fff;
 }
+
 .hero-image img {
   max-width: 300px;
   border: 5px solid #fff;
 }
-.about, .projects, .contact {
+
+.about,
+.projects,
+.contact {
   padding: 4rem 0;
   text-align: center;
 }
+
 .about h2,
 .projects h2,
 .contact h2 {
@@ -84,6 +111,7 @@ nav .container {
   display: inline-block;
   padding-bottom: 0.5rem;
 }
+
 .projects .project-cards {
   display: flex;
   flex-wrap: wrap;
@@ -91,6 +119,7 @@ nav .container {
   gap: 2rem;
   margin-top: 2rem;
 }
+
 .card {
   background: #00365f;
   padding: 2rem;
@@ -98,21 +127,26 @@ nav .container {
   min-width: 250px;
   border-radius: 8px;
 }
+
 .card h3 {
   margin-bottom: 1rem;
 }
+
 .card p {
   margin-bottom: 1.5rem;
 }
+
 .contact-info {
   list-style: none;
   margin-top: 1.5rem;
   text-align: left;
   display: inline-block;
 }
+
 .contact-info li {
   margin-bottom: 0.5rem;
 }
+
 .highlight {
   color: #4fb1ff;
   font-size: 1.2rem;
