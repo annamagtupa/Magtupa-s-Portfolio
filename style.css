@@ -145,19 +145,29 @@ nav.open .nav-links {
 }
 
 /* Projects grid (mobile-first) */
-.projects .project-cards {
+/* .projects .project-cards {
   display: grid;
-  grid-template-columns: 1fr; /* 1 col on phones */
+  grid-template-columns: 1fr; 
   gap: 1.25rem;
   margin-top: 2rem;
-  /* center cards */
   justify-items: center;
   justify-content: center;
+} */
+
+.projects .project-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+  margin-top: 2rem;
+  justify-content: center;
 }
+
 .card {
   background: var(--card);
   padding: 1.5rem;
   border-radius: 8px;
+  width: 100%;
+  max-width: 320px; /* optional, improves layout */
 }
 .card h3 {
   margin-bottom: 1rem;
