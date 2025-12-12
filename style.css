@@ -150,6 +150,9 @@ nav.open .nav-links {
   grid-template-columns: 1fr; /* 1 col on phones */
   gap: 1.25rem;
   margin-top: 2rem;
+  /* center cards */
+  justify-items: center;
+  justify-content: center;
 }
 .card {
   background: var(--card);
